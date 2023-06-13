@@ -51,7 +51,7 @@ const Home = () => {
       </div>
       <div >
         <img
-          src="/profile2.svg"
+          src="portfolio/profile2.svg"
           className="rounded-2xl  md:ml-16 p-4 md:p-0 w-full h-full object-cover"
           alt="Profile"
         />
