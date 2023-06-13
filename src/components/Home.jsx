@@ -3,6 +3,7 @@ import React, { useEffect, useRef} from 'react';
 import Typed from 'typed.js';
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import { Link } from 'react-scroll';
+import profile2 from '../assets/profile2.svg'
 
 const Home = () => {
   const textRef = useRef(null);
@@ -51,7 +52,7 @@ const Home = () => {
       </div>
       <div >
         <img
-          src={process.env.PUBLIC_URL + '/profile2.svg'}
+          src={profile2}
           className="rounded-2xl  md:ml-16 p-4 md:p-0 w-full h-full object-cover"
           alt="Profile"
         />
