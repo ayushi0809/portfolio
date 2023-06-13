@@ -1,5 +1,5 @@
 
-import React, { useEffect, useRef , useState} from 'react';
+import React, { useEffect, useRef} from 'react';
 import Typed from 'typed.js';
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import { Link } from 'react-scroll';
