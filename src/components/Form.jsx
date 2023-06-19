@@ -27,7 +27,7 @@ const Form = () => {
       };
   return (
     <div
-      name="contact"
+      id="contact"
       className="w-full md:mt-56"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">

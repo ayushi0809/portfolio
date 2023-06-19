@@ -2,8 +2,9 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div name = "about" className = "w-full md:h-screen text-gray-800">
-            <div className = "max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div id = "about">
+        <div  className = "w-full text-gray-800">
+            <div className = "max-w-screen-lg p-4 mx-auto flex flex-col items-center w-full">
                 <div className = "pb-8">
                     <p className = "text-4xl font-bold inline border-b-4 border-gray-900">About</p>
                 </div>
@@ -14,7 +15,9 @@ const About = () => {
                 Passionate about creating intuitive user interfaces and optimizing application performance. 
                 Effective collaborator with excellent problem-solving skills and a strong dedication to continuous learning and professional growth.
                 </p>
+                
             </div>
+        </div>
         </div>
     )
 }

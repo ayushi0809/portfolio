@@ -5,10 +5,10 @@ const Expierence = () => {
 
 
     <div
-      name="career"
+      id="career"
       className="w-full md:h-screen md:mt-32"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-start mt-16 items-center w-full h-full text-gray-600">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-start mt-16 items-center w-full min-h-full text-gray-600">
         <div className='mb-8'>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Career

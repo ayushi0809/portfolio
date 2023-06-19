@@ -6,6 +6,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Expierence from './components/Expierence'
 import Form from './components/Form'
+import BackToTopButton from './components/BackToTopButton'
 
 
 
@@ -19,7 +20,7 @@ const App = () => {
     <Expierence/>
     <Form />
       <SocialLinks />
-
+<BackToTopButton />
 
     </div>
   )

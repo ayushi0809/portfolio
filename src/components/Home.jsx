@@ -25,7 +25,7 @@ const Home = () => {
 
   return (
     <div
-      name="home"
+      id="home"
       className="md:h-screen w-full"
     >
     <div className="max-w-screen-lg mx-auto grid grid-cols-1 items-center justify-center h-screen px-4 md:grid-cols-2">

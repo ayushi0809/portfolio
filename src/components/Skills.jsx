@@ -92,10 +92,10 @@ const Skills = () => {
 
   return (
     <div
-      name="skills"
-      className="w-full md:h-screen"
+      id="skills"
+      className="w-full md:min-h-screen mt-28"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-gray-600">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col w-full min-h-full text-gray-600">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Skills
